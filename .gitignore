@@ -1,0 +1,9 @@
+.classpath
+.project
+conf/
+/build/classes/
+.settings/
+*.log
+*.class
+*.sh
+com.secneo.participle.jar

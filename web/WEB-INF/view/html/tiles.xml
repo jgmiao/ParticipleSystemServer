@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="home" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="self_check" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/self_check.jsp"></put-attribute>
+		<put-attribute name="scripts" value="/WEB-INF/view/html/jsf/self_check.jsf"></put-attribute>
+	</definition>
+		<definition name="self_check_participle" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/self_check_participle.jsp"></put-attribute>
+	</definition>
+		<definition name="self_check_similar" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/self_check_similar.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="call_back" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/call_back.jsp"></put-attribute>
+		<put-attribute name="scripts" value="/WEB-INF/view/html/jsf/call_back.jsf"></put-attribute>
+	</definition>
+	
+	<definition name="check_platform" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/check_platform.jsp"></put-attribute>
+		<put-attribute name="scripts" value="/WEB-INF/view/html/jsf/check_platform.jsf"></put-attribute>
+	</definition>
+	
+	<definition name="auto_check" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/auto_check.jsp"></put-attribute>
+		<put-attribute name="scripts" value="/WEB-INF/view/html/jsf/auto_check.jsf"></put-attribute>
+	</definition>
+		<definition name="auto_check_participle" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/auto_check_participle.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="dict_check" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/dict_check.jsp"></put-attribute>
+		<put-attribute name="scripts" value="/WEB-INF/view/html/jsf/dict_check.jsf"></put-attribute>
+	</definition>
+		<definition name="dict_check_list" extends="console">
+		<put-attribute name="body" value="/WEB-INF/view/html/jsp/dict_check_list.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

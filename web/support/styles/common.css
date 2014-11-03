@@ -1,0 +1,109 @@
+body ul{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #F0EDED;
+}
+header{
+	margin:0 auto;
+	width:960px;
+}
+footer{
+	width: 960px;
+	overflow: hidden;
+	text-align: center;
+	color: #939393;
+	font-size: 12px;
+	border-top:1px solid #939393;
+	margin:1px auto;
+	padding-top:20px;
+}
+.content{
+	margin: 10px auto;
+	padding:0;
+	width:960px;
+	
+}
+a {
+	text-decoration: none;
+	color: #242424;
+}
+
+a:hover {
+	color: red;
+}
+
+ul {
+    list-style: none outside none;
+}
+li {
+    list-style: none outside none;
+    line-height: normal;
+}
+
+img {
+    border: 0 none;
+}
+
+center{
+	margin:0 auto;
+	text-align: center;
+}
+
+b{
+	color:red;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.hidden{
+	display:none;
+}
+.show{
+	display:inline;
+}
+
+label{
+	margin-top:6px;
+    display:block;
+    text-align:right;
+    width:123px;
+    float:left;
+}
+
+.button{
+	width:80px;
+    height:25px; 
+    border: 1px #65E410 solid; 
+	background-color: #B3CDE7; 
+    border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+/*输入框*/
+.inp{
+	width: 200px;
+	border: 1px solid #C8C8C8;
+	line-height: 2;
+	height: 30px;
+	padding: 0 3px;
+	vertical-align: middle;
+}
+.msg-box{
+	width:150px;
+	color: #c0c0c0;;
+    font-size: 12px;
+}
+.searchform {
+    height: 55px;
+    margin: 10px 0 0 5px;
+    padding: 0;
+    width: 625px;
+}

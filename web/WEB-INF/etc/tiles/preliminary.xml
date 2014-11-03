@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="dialog" template="/WEB-INF/view/html/templates/dialog.jsp">
+		<put-attribute name="body" value="/WEB-INF/view/html/templates/dialog_body.jsp"></put-attribute>
+	</definition>
+	<definition name="console" template="/WEB-INF/view/html/templates/console.jsp">
+		<put-attribute name="body" value="/WEB-INF/view/html/templates/dialog_body.jsp"></put-attribute>
+		<put-list-attribute name="styles"></put-list-attribute>
+	</definition>
+</tiles-definitions>
